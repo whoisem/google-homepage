@@ -1,13 +1,13 @@
-html, body {
+html, body, main {
     height: 100%;
+    width: 100%;
+    margin-left: 0px;
 }
 body{
     font-family: arial,sans-serif;
     font-size: 13px;
 }
-main{
-    height: 100%;
-}
+
 .menubar{
     display: flex;
     justify-content: flex-end;
@@ -122,32 +122,38 @@ footer{
     bottom: 0px;
     position: fixed;
     width: 100%;
+    background-color: #f2f2f2;
 }   
 .foot{
     
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: #e4e4e4;;
-    line-height: 40px;
+    height: 40px;
     width: 100%;
 }
 li {
-    display: inline;
-    padding: 25px;
+    display: block;
+    padding: 10px 12px  ;
     font-size: 15px;
-    color: rgba(0,0,0,.54)
+    color: rgba(0,0,0,.54);
+    float: left;
 }
 
 ul {
-    background-color: #f2f2f2;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 li a {
     text-decoration: none;
     font-size: 15px;
     color: rgba(0,0,0,.54);   
+}
+#refernce{
+    bottom: 40px;
+}
+.right{
+    float: right;
 }
