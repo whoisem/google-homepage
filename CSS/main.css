@@ -1,0 +1,111 @@
+body{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+.menubar{
+    display: flex;
+    justify-content: flex-end;
+}
+.menulink{
+    height: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    
+    text-decoration: none;
+}
+.menulink:hover{
+    text-decoration: underline;
+}
+.menubutton{
+    height: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+#gapp{
+    background-image: url("/the_odin_project/google-homepage/media/gelements.png");
+    background-position: -132px -38px;
+    background-size: 528px 68px; 
+    width: 30px;  
+}
+#profile{
+    background-image: url("/the_odin_project/google-homepage/media/Bhoomi.PNG");
+    border-radius: 25px;
+    background-size: contain;
+    width: 30px;
+}
+#logo{
+    display: block;
+margin: 100px auto 30px auto;
+}
+#search{
+    display: flex;
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    height: 30px;
+    padding: 5px;
+    max-width: 582px;
+    width: 80%;
+    margin: auto;
+}
+#search:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+}
+.searchglass{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+
+}
+searchitem{
+    height: 30px;
+    width: 30px;
+    
+    
+}
+#field{
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+.butt{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+.butt:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+#language{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lantext{
+    padding: 0 3px;
+    margin: auto 0;
+}
+.lantext a:visited {
+    color: #609;
